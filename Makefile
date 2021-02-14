@@ -1,5 +1,5 @@
 all: main.o farray.o
-	gcc main.o farray.o -0 ptr_homework
+	gcc main.o farray.o -o ptr_homework
 
 main.o: main.c float_array.h
 	gcc -c main.c
